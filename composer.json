@@ -1,0 +1,27 @@
+{
+    "name": "luminee/eloquent",
+    "description": "Eloquent extend",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "LuminEe",
+            "email": "1123462990@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Luminee\\Eloquent\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "laravel/framework": "5.5.*"
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    }
+}
